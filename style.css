@@ -1,16 +1,72 @@
 .Body{
-    background-image: url(bg.jpg);
+    background-image: url("bg (blue).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .login_div1 , .login_div2
 	{
-		background: rgba(255, 255, 255, 0.324);
+		
 		padding: 10px;
 		float: none;
 		border-radius: 15px;
+		background-color: rgba(0, 0, 0, 0.648);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+		min-width: 80%;
 	}
 .Div{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.35) inset;
+	padding: 1%;
+	padding-bottom: 2%;
+	border-radius: 15px;
+	
+	width: 60%;
+}
+
+.Div2{
+	margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+	padding: 1%;
+	padding-bottom: 2%;
+	border-radius: 15px;
+	
+	width: 60%;
+}
+
+.Body2{
+	background-image: url("bg (green).jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Btn{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+}
+
+.Btn2{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.35) inset;
+}
+	
+.num_div{
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		background-color: rgba(0, 0, 0, 0.4);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.35) inset;
+		width: 60%;
+}
+
+#output{
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		background-color: rgba(0, 0, 0, 0.4);
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.35) inset;
+		width: 60%;
 }
