@@ -27,10 +27,7 @@
 }
 
 .Div2{
-	margin-top: 2%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+	
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
 	padding: 1%;
 	padding-bottom: 2%;
@@ -69,4 +66,16 @@
 		background-color: rgba(0, 0, 0, 0.4);
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.35) inset;
 		width: 60%;
+		text-align: left;
+}
+
+.BTN{
+	background: rgb(4, 157, 60);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35);
+	border-radius: 15px;
+}
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
 }
